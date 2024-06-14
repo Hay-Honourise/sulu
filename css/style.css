@@ -94,8 +94,8 @@ p{
     display: flex;
     position: relative;
     height: 87px;
-/*    background: var(--bg-color);*/
-background-color: red;
+    background: var(--bg-color);
+/*background-color: red;*/
 }
 
 .top-bar .logo {
@@ -104,7 +104,7 @@ background-color: red;
     text-align: left;
 /*    overflow: hidden;*/
     width: 80%;
-    background-color: green;
+/*    background-color: green;*/
 }
 
 /* .logo_text {
