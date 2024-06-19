@@ -50,7 +50,7 @@ $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     autoplayTimeout: 45000, // Set to 45,000 milliseconds (45 seconds)
     dots: true,
-    loop: true,
+    loop: false,
     responsive: {
         0:{
             items:1

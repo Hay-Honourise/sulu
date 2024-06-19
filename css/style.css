@@ -103,7 +103,7 @@ p{
     padding: 5px 0;
     text-align: left;
 /*    overflow: hidden;*/
-    width: 80%;
+    width: 75%;
 /*    background-color: green;*/
 }
 
@@ -1234,6 +1234,10 @@ p{
 .testimonial {
     position: relative;
     padding: 45px 0;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+/*    background-color: red;*/
 }
 
 .testimonial .testimonials-carousel {
@@ -1241,6 +1245,11 @@ p{
     width: calc(100% + 30px);
     left: -15px;
     right: -15px;
+
+/*    background-color: green;*/
+     display: flex;
+    justify-content: center;
+/*    align-items: center;*/
 }
 
 .testimonial .testimonial-item {
@@ -1248,7 +1257,10 @@ p{
     margin: 0 15px;
     padding: 30px;
     background: var(--bg-color);
-    overflow: hidden;
+/*    overflow: hidden;*/
+
+/*background-color: blue;*/
+/*    max-width: 100%;*/
 }
 
 .testimonial .testimonial-item i {
